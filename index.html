@@ -8,7 +8,7 @@
 :root{--bg:#0e1117;--panel:#161b24;--panel2:#1c2330;--border:#2a3342;--text:#d7dde8;--dim:#8b95a7;--text2:#cfd6e4;--thesis:#b9c2d4;
 --info:#4da3ff;--hedg:#ff9f43;--ntk:#2ecc8f;--sn:#c58bff;--accent:#4da3ff}
 html{color-scheme:dark}
-html[data-theme="light"]{color-scheme:light;--bg:#f4f6f9;--panel:#ffffff;--panel2:#eaeef4;--border:#d5dbe4;--text:#1c2433;--dim:#61708a;--text2:#333f52;--thesis:#41506a;--info:#155fad;--hedg:#b35c00;--ntk:#0c7d55;--sn:#6f36c9;--accent:#155fad}
+html[data-theme="light"]{color-scheme:light;--bg:#f5f1e8;--panel:#fbf8f1;--panel2:#eee8db;--border:#dbd3c2;--text:#3d3a30;--dim:#877e6c;--text2:#565040;--thesis:#6a6250;--info:#3d6b9e;--hedg:#a76a2e;--ntk:#42795e;--sn:#7a5da8;--accent:#3d6b9e}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 0 40px}
 header{padding:18px 24px 14px;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;align-items:baseline;gap:14px}
@@ -42,7 +42,7 @@ nav select{background:var(--panel2);color:var(--text);border:1px solid var(--bor
 @media(max-width:720px){.grid{grid-template-columns:1fr}.grid .col{display:none}.grid .col.active{display:flex}}
 .tabs{display:none}
 @media(max-width:720px){.tabs{display:flex;gap:6px;padding:10px 12px 0}
-.tabs button{flex:1;background:var(--panel2);color:var(--dim);border:1px solid var(--border);border-radius:8px;padding:10px 4px;font-size:12.5px;font-weight:600;cursor:pointer}
+.tabs button{flex:1;background:var(--panel2);color:var(--dim);border:1px solid var(--border);border-radius:8px;padding:9px 2px;font-size:11px;font-weight:600;line-height:1.25;cursor:pointer}
 .tabs button.on{color:var(--text);border-color:var(--tabc);box-shadow:inset 0 -2px 0 var(--tabc)}}
 .pdfbtn{display:inline-block;margin:0 0 10px;font-size:12px;color:var(--accent);border:1px solid var(--border);border-radius:6px;padding:4px 10px;text-decoration:none;background:var(--panel2)}
 .pdfbtn:hover{border-color:var(--accent)}
@@ -76,10 +76,10 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
   <h1>Research Daily</h1>
   <span class="date" id="hdrDate"></span>
   <span class="counts">
-    <span class="c-info"><b>13</b> Information</span>
-    <span class="c-hedg"><b>9</b> Hedgeye</span>
     <span class="c-ntk"><b>6</b> Need to Know</span>
-    <span class="c-sn"><b>3</b> Short Notes</span>
+    <span class="c-hedg"><b>9</b> Hedgeye</span>
+    <span class="c-info"><b>13</b> The Information</span>
+    <span class="c-sn"><b>3</b> Market Notes</span>
   </span>
   <button id="themeBtn" title="Toggle light/dark mode">&#9681;</button>
 </header>
@@ -92,7 +92,7 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
 <div class="grid" id="grid"></div>
 <h2 class="arch">All days</h2>
 <div class="archive" id="archive"></div>
-<div class="legend">Columns: The Information &middot; Hedgeye &middot; Daily Need to Know &middot; Short Notes (shows most recent note on or before the selected date). On mobile, use the category tabs or swipe left/right to switch source. &ldquo;Original PDF&rdquo; links appear for PDF sources from the last 7 days &mdash; open and print from the browser viewer. Click an archive row to jump to that day.</div>
+<div class="legend">Columns: Need to Know &middot; Hedgeye &middot; The Information &middot; Market Notes (shows most recent note on or before the selected date). On mobile, use the category tabs or swipe left/right to switch source. &ldquo;Original PDF&rdquo; links appear for PDF sources from the last 7 days &mdash; open and print from the browser viewer. Click an archive row to jump to that day.</div>
 <script>
 (function(){
  let t=null;
@@ -109,14 +109,14 @@ const DATA = [{"date": "2026-07-14", "source": "information", "title": "Playing 
 const SRC = {
  information:{label:"The Information",cls:"c-info",dot:"var(--info)"},
  hedgeye:{label:"Hedgeye",cls:"c-hedg",dot:"var(--hedg)"},
- needtoknow:{label:"Daily Need to Know",cls:"c-ntk",dot:"var(--ntk)"},
- shortnotes:{label:"Short Notes",cls:"c-sn",dot:"var(--sn)"}
+ needtoknow:{label:"Need to Know",cls:"c-ntk",dot:"var(--ntk)"},
+ shortnotes:{label:"Market Notes",cls:"c-sn",dot:"var(--sn)"}
 };
-const ORDER = ["information","hedgeye","needtoknow","shortnotes"];
-const TABL = {information:"Info",hedgeye:"Hedgeye",needtoknow:"NTK",shortnotes:"Notes"};
+const ORDER = ["needtoknow","hedgeye","information","shortnotes"];
+const TABL = {needtoknow:"Need to Know",hedgeye:"Hedgeye",information:"The Information",shortnotes:"Market Notes"};
 const dates = [...new Set(DATA.map(e=>e.date))].sort().reverse();
 let idx = 0;
-let activeSrc = "information";
+let activeSrc = "needtoknow";
 function renderTabs(){
  document.getElementById("tabs").innerHTML=ORDER.map(s=>'<button style="--tabc:'+SRC[s].dot+'" class="'+(s===activeSrc?"on":"")+'" data-s="'+s+'">'+TABL[s]+'</button>').join("");
 }
