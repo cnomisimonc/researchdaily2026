@@ -80,10 +80,10 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
   <h1>Research Daily</h1>
   <span class="date" id="hdrDate"></span>
   <span class="counts">
-    <span class="c-ntk"><b>6</b> Need to Know</span>
-    <span class="c-hedg"><b>9</b> Hedgeye</span>
-    <span class="c-info"><b>13</b> The Information</span>
-    <span class="c-sn"><b>5</b> Market Notes</span>
+    <span class="c-ntk"><b id="cnt-ntk">6</b> Need to Know</span>
+    <span class="c-hedg"><b id="cnt-hedg">9</b> Hedgeye</span>
+    <span class="c-info"><b id="cnt-info">13</b> The Information</span>
+    <span class="c-sn"><b id="cnt-sn">5</b> Market Notes</span>
   </span>
   <button id="themeBtn" title="Toggle light/dark mode">&#9681;</button>
 </header>
@@ -215,6 +215,14 @@ gridEl.addEventListener("touchend",e=>{
   renderTabs();render();
  }
 },{passive:true});
+(function(){
+ const ids={needtoknow:"cnt-ntk",hedgeye:"cnt-hedg",information:"cnt-info",shortnotes:"cnt-sn"};
+ ORDER.forEach(s=>{
+  const set=new Set();
+  dates.forEach(d=>{const e=entryFor(s,d);if(e)set.add(e.file);});
+  document.getElementById(ids[s]).textContent=set.size;
+ });
+})();
 renderTabs();
 render();
 </script>
