@@ -73,6 +73,13 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
 .dot.on{opacity:1}
 .d-info{background:var(--info)}.d-hedg{background:var(--hedg)}.d-ntk{background:var(--ntk)}.d-sn{background:var(--sn)}
 .legend{color:var(--dim);font-size:11.5px;margin:8px 24px 0}
+.botbar{display:none}
+@media(max-width:720px){
+ body{padding-bottom:92px}
+ .botbar{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--border);z-index:30}
+ .botbar button{flex:1;background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:13px 8px;font-size:14px;font-weight:600;cursor:pointer}
+ .botbar button:disabled{opacity:.35}
+}
 </style>
 </head>
 <body>
@@ -97,6 +104,11 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
 <h2 class="arch">All days</h2>
 <div class="archive" id="archive"></div>
 <div class="legend">Columns: Need to Know &middot; Hedgeye &middot; The Information &middot; Market Notes &mdash; days follow the Need to Know publication calendar. Hedgeye and The Information fall back up to 3 days when there is no same-day file (tagged with the original date). Days without a Market Note show a philosophical quote instead; Market Notes are always printable via their Original PDF link. On mobile, use the category tabs or swipe left/right to switch source. &ldquo;Original PDF&rdquo; links appear for PDF sources from the last 7 days &mdash; open and print from the browser viewer. Click an archive row to jump to that day.</div>
+<div class="botbar" id="botbar">
+  <button id="bPrev">&#8592; Older</button>
+  <button id="bTop">&#8593; Top</button>
+  <button id="bNext">Newer &#8594;</button>
+</div>
 <script>
 (function(){
  let t=null;
@@ -186,12 +198,17 @@ function render(){
  document.getElementById("dateSel").value=date;
  document.getElementById("prevBtn").disabled=(idx>=dates.length-1);
  document.getElementById("nextBtn").disabled=(idx<=0);
+ document.getElementById("bPrev").disabled=(idx>=dates.length-1);
+ document.getElementById("bNext").disabled=(idx<=0);
 }
 const sel=document.getElementById("dateSel");
 sel.innerHTML=dates.map(d=>'<option value="'+d+'">'+d+'</option>').join("");
 sel.onchange=()=>{idx=dates.indexOf(sel.value);render();};
 document.getElementById("prevBtn").onclick=()=>{if(idx<dates.length-1){idx++;render();}};
 document.getElementById("nextBtn").onclick=()=>{if(idx>0){idx--;render();}};
+document.getElementById("bPrev").onclick=()=>{if(idx<dates.length-1){idx++;render();window.scrollTo({top:0});}};
+document.getElementById("bNext").onclick=()=>{if(idx>0){idx--;render();window.scrollTo({top:0});}};
+document.getElementById("bTop").onclick=()=>{window.scrollTo({top:0,behavior:"smooth"});};
 const arch=document.getElementById("archive");
 arch.innerHTML=dates.map(d=>{
  const dots=ORDER.map(s=>{
