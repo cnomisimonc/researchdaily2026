@@ -92,7 +92,7 @@ h2.arch{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(-
 <div class="grid" id="grid"></div>
 <h2 class="arch">All days</h2>
 <div class="archive" id="archive"></div>
-<div class="legend">Columns: Need to Know &middot; Hedgeye &middot; The Information &middot; Market Notes (shows most recent note on or before the selected date). On mobile, use the category tabs or swipe left/right to switch source. &ldquo;Original PDF&rdquo; links appear for PDF sources from the last 7 days &mdash; open and print from the browser viewer. Click an archive row to jump to that day.</div>
+<div class="legend">Columns: Need to Know &middot; Hedgeye &middot; The Information &middot; Market Notes (shows most recent note on or before the selected date). Weekday view: files published on Saturday or Sunday appear in Monday&rsquo;s view, tagged with their original date. On mobile, use the category tabs or swipe left/right to switch source. &ldquo;Original PDF&rdquo; links appear for PDF sources from the last 7 days &mdash; open and print from the browser viewer. Click an archive row to jump to that day.</div>
 <script>
 (function(){
  let t=null;
@@ -114,7 +114,10 @@ const SRC = {
 };
 const ORDER = ["needtoknow","hedgeye","information","shortnotes"];
 const TABL = {needtoknow:"Need to Know",hedgeye:"Hedgeye",information:"The Information",shortnotes:"Market Notes"};
-const dates = [...new Set(DATA.map(e=>e.date))].sort().reverse();
+function addDays(d,n){const t=new Date(d+"T00:00:00Z");t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10);}
+function dow(d){return new Date(d+"T00:00:00Z").getUTCDay();}
+function bucket(d){const w=dow(d);return w===6?addDays(d,2):(w===0?addDays(d,1):d);}
+const dates = [...new Set(DATA.map(e=>bucket(e.date)))].sort().reverse();
 let idx = 0;
 let activeSrc = "needtoknow";
 function renderTabs(){
@@ -128,7 +131,11 @@ function entryFor(src,date){
   const c=DATA.filter(e=>e.source===src&&e.date<=date).sort((a,b)=>b.date.localeCompare(a.date));
   return c[0]||null;
  }
- return DATA.find(e=>e.source===src&&e.date===date)||null;
+ let e=DATA.find(x=>x.source===src&&x.date===date);
+ if(!e&&dow(date)===1){
+  e=DATA.find(x=>x.source===src&&x.date===addDays(date,-1))||DATA.find(x=>x.source===src&&x.date===addDays(date,-2));
+ }
+ return e||null;
 }
 function card(src,date){
  const s=SRC[src], e=entryFor(src,date);
@@ -136,7 +143,7 @@ function card(src,date){
  if(!e){body='<div class="none">no file this day</div>';}
  else{
   let inner="";
-  if(src==="shortnotes"&&e.date!==date) inner+='<span class="snlabel">from '+e.date+'</span>';
+  if(e.date!==date) inner+='<span class="snlabel">from '+e.date+'</span>';
   inner+='<div class="title">'+esc(e.title)+'</div><div class="meta">'+e.date+' &middot; '+esc(e.file)+'</div>';
   if(e.pdf) inner+='<a class="pdfbtn" href="'+e.pdf+'" target="_blank" rel="noopener">Original PDF &#8599;</a>';
   if(e.thesis) inner+='<div class="thesis">'+esc(e.thesis)+'</div>';
@@ -162,10 +169,10 @@ document.getElementById("nextBtn").onclick=()=>{if(idx>0){idx--;render();}};
 const arch=document.getElementById("archive");
 arch.innerHTML=dates.map(d=>{
  const dots=ORDER.map(s=>{
-  const has=s==="shortnotes"?DATA.some(e=>e.source===s&&e.date===d):!!DATA.find(e=>e.source===s&&e.date===d);
+  const has=DATA.some(e=>e.source===s&&bucket(e.date)===d);
   return '<span class="dot d-'+(s==="information"?"info":s==="hedgeye"?"hedg":s==="needtoknow"?"ntk":"sn")+(has?" on":"")+'"></span>';
  }).join("");
- const names=DATA.filter(e=>e.date===d).map(e=>SRC[e.source].label).join(", ");
+ const names=[...new Set(DATA.filter(e=>bucket(e.date)===d).map(e=>SRC[e.source].label))].join(", ");
  return '<div class="arow" data-d="'+d+'"><span class="d">'+d+'</span><span>'+dots+'</span><span style="color:var(--dim);font-size:12px">'+names+'</span></div>';
 }).join("");
 arch.onclick=ev=>{const r=ev.target.closest(".arow");if(r){idx=dates.indexOf(r.dataset.d);render();window.scrollTo({top:0,behavior:"smooth"});}};
