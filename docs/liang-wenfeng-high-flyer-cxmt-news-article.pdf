@@ -1,0 +1,661 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 11 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4858
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 59.85827 773.5276 cm
+Q
+q
+1 0 0 1 59.85827 763.5276 cm
+q
+.078431 .478431 .607843 rg
+BT 1 0 0 1 0 1.5 Tm /F2 8.5 Tf 10 TL (CHINA CAPITAL / ARTIFICIAL INTELLIGENCE / SEMICONDUCTORS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 698.5276 cm
+q
+.078431 .156863 .227451 rg
+BT 1 0 0 1 0 33 Tm /F2 25 Tf 29 TL (The quant fund behind DeepSeek is) Tj T* (now part of China's chip-market story) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 639.5276 cm
+q
+.364706 .407843 .45098 rg
+BT 1 0 0 1 0 38.7 Tm /F1 12.3 Tf 17 TL (High-Flyer helped finance the AI lab that made Liang Wenfeng a global name. Its) Tj T* (reported preliminary bids in CXMT's record Shanghai IPO show how the investor's) Tj T* (quant, compute and semiconductor ambitions increasingly intersect.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 617.5276 cm
+q
+BT 1 0 0 1 0 2.6 Tm 11 TL /F2 8.4 Tf .113725 .145098 .172549 rg (By Staff Report  ) Tj (  |  ) Tj (  Hong Kong  ) Tj (  |  ) Tj (  28 July 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 606.7276 cm
+q
+.8 w
+1 J
+.717647 .768627 .796078 RG
+n 0 0 m 475.5591 0 l S
+Q
+Q
+q
+1 0 0 1 59.85827 578.7276 cm
+q
+BT 1 0 0 1 0 11.5 Tm 9.5 TL /F2 7.5 Tf .364706 .407843 .45098 rg (AT A GLANCE) Tj /F1 7.5 Tf (  ) Tj (  ) Tj /F2 7.5 Tf (High-Flyer:) Tj /F1 7.5 Tf ( AI-driven quant manager; Reuters reported a 100bn yuan portfolio in 2025.  ) Tj (  ) Tj /F2 7.5 Tf (DeepSeek:) Tj /F1 7.5 Tf ( Incubated within) Tj T* (High-Flyer as an AGI research effort.  ) Tj (  ) Tj /F2 7.5 Tf (CXMT:) Tj /F1 7.5 Tf ( China's largest DRAM maker; its July listing raised 57.92bn yuan, Reuters reported.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 569.7276 cm
+Q
+q
+1 0 0 1 59.85827 509.7276 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (Liang Wenfeng's route into artificial intelligence began in finance. He co-founded High-Flyer, a) Tj T* (China-based quantitative investment manager, after studying at Zhejiang University. The firm became) Tj T* (known for applying machine learning to systematic trading before redirecting substantial computing) Tj T* (resources toward artificial general intelligence research. [1]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 440.7276 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (That shift produced DeepSeek. Reuters reported in January 2025 that High-Flyer had built a 100 billion) Tj T* (yuan portfolio using AI models to inform investment decisions, then chose in 2023 to concentrate its) Tj T* (resources on an independent research group. That group became DeepSeek, with Liang serving as) Tj T* (High-Flyer's controlling shareholder and DeepSeek's leader. [1]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 356.7276 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 64.9 Tm /F1 10.1 Tf 15 TL (The connection matters because it gave DeepSeek an unusual starting point: a parent organization) Tj T* (already accustomed to building compute-intensive systems and funding them from investment operations) Tj T* -0.112959 Tw (rather than relying solely on venture capital. Reuters' review of High-Flyer materials found that the firm built) Tj T* 0 Tw (two Nvidia A100 clusters before U.S. export controls took effect, including a roughly 10,000-chip system) Tj T* (completed in 2021. [1]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 287.7276 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL -0.056345 Tw (For allocators, the result is a linked capital-and-technology ecosystem. High-Flyer's trading models created) Tj T* 0 Tw (the operating context for an AI research program; DeepSeek's development sharpened the group's) Tj T* (demand for compute; and the group is now visible in a marquee listing tied to China's semiconductor) Tj T* (self-sufficiency drive.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 218.7276 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (The immediate market event is CXMT's Shanghai debut. Shares in the DRAM maker rose 466% on 27) Tj T* (July, closing at 49 yuan against an 8.66 yuan offer price, according to Reuters. The IPO raised 57.92) Tj T* (billion yuan \(about $8.6 billion\), making it the largest mainland Chinese semiconductor offering on record.) Tj T* ([2]) Tj T* ET
+Q
+Q
+ 
+
+Q Q Q Q Q Q Q Q Q Q
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.717647 0.768627 0.796078 RG
+0.4 w
+n
+53.85827 807.874 m
+541.4173 807.874 l
+S
+BT
+/F2-0 7.2 Tf
+8.64 TL
+ET
+0.078431 0.156863 0.227451 rg
+BT
+1 0 0 1 53.85827 816.378 Tm
+(MARKETS \046 TECHNOLOGY \174 REPORTING NOTE) Tj
+T*
+ET
+BT
+/F1-0 7.2 Tf
+8.64 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 495.7909 816.378 Tm
+(28 JULY 2026) Tj
+T*
+ET
+0.717647 0.768627 0.796078 RG
+n
+53.85827 34.01575 m
+541.4173 34.01575 l
+S
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 53.85827 22.67717 Tm
+(High\055Flyer\054 DeepSeek and CXMT) Tj
+T*
+ET
+BT
+1 0 0 1 519.2343 22.67717 Tm
+(Page 1) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4477
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 59.85827 768.8661 cm
+q
+.078431 .156863 .227451 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (A highly visible IPO bid - but not a disclosed equity stake) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 687.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 64.9 Tm /F1 10.1 Tf 15 TL (In the IPO's bookbuilding process, High-Flyer Quant was among the prominent prospective buyers. The) Tj T* (South China Morning Post reported that 153 private-fund products managed by High-Flyer submitted valid) Tj T* (preliminary bids at 8.78 yuan per share for a combined 12.55 billion shares. The same report said) Tj T* (institutional preliminary orders totalled about 1.24 trillion shares, equivalent to roughly 463 times the initial) Tj T* (offline tranche. [3]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 618.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL -0.090308 Tw (That is meaningful evidence of participation in the offering. It is not, by itself, evidence of the final allocation) Tj T* 0 Tw (or of a post-listing ownership percentage. The public reporting reviewed for this article does not specify) Tj T* (how many shares High-Flyer ultimately received or whether the products retained their allocations. Those) Tj T* (distinctions are essential when translating headline demand into portfolio exposure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 564.8661 cm
+q
+BT 1 0 0 1 0 34.9 Tm 15 TL /F2 10.1 Tf .113725 .145098 .172549 rg (Key distinction:) Tj /F1 10.1 Tf ( preliminary bids signal interest; final allocations establish an IPO position; post-listing) Tj T* (disclosures establish an ongoing stake. In CXMT's case, only the first of those is clearly reported for) Tj T* (High-Flyer in the sources reviewed here.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 495.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (CXMT is strategically important well beyond its debut-day valuation. The company is China's leading) Tj T* (producer of DRAM, a category used in servers, PCs, phones and vehicles. Reuters described the) Tj T* (company as a pillar of Beijing's effort to build a more self-sufficient chip industry as restrictions on) Tj T* (advanced technology intensify competition. [2]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 426.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (The listing also arrived during a strong memory cycle driven by AI infrastructure demand. Reuters cited a) Tj T* (TrendForce analyst who expects price increases to persist through 2027, while noting CXMT's own) Tj T* (prospectus warning that the market could weaken if AI investment slows or new supply arrives too quickly.) Tj T* ([2] The opportunity is therefore tied to both strategic policy and a cyclical industry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 372.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 34.9 Tm /F1 10.1 Tf 15 TL (For High-Flyer, an IPO bid for CXMT is consistent with a broad technology exposure thesis, but it should) Tj T* (not be treated as proof of a single directional investment decision by Liang himself. The bids were made) Tj T* (through 153 private-fund products, not described as a single flagship vehicle. [3]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 288.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 64.9 Tm /F1 10.1 Tf 15 TL (High-Flyer's own performance helps explain why its capital base attracts attention. Bloomberg reporting) Tj T* (cited by Cinco Dias said the manager's funds returned an average 57% in 2025, with more than 70 billion) Tj T* (yuan under management. Performance information for Chinese private funds is subject to limited public) Tj T* (disclosure and should be read as reported manager-product data, not a complete independently audited) Tj T* (track record. [4]) Tj T* ET
+Q
+Q
+ 
+
+Q Q Q Q Q Q Q Q Q Q
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.717647 0.768627 0.796078 RG
+0.4 w
+n
+53.85827 807.874 m
+541.4173 807.874 l
+S
+BT
+/F2-0 7.2 Tf
+8.64 TL
+ET
+0.078431 0.156863 0.227451 rg
+BT
+1 0 0 1 53.85827 816.378 Tm
+(MARKETS \046 TECHNOLOGY \174 REPORTING NOTE) Tj
+T*
+ET
+BT
+/F1-0 7.2 Tf
+8.64 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 495.7909 816.378 Tm
+(28 JULY 2026) Tj
+T*
+ET
+0.717647 0.768627 0.796078 RG
+n
+53.85827 34.01575 m
+541.4173 34.01575 l
+S
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 53.85827 22.67717 Tm
+(High\055Flyer\054 DeepSeek and CXMT) Tj
+T*
+ET
+BT
+1 0 0 1 519.2343 22.67717 Tm
+(Page 2) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 6205
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 59.85827 768.8661 cm
+q
+.078431 .156863 .227451 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Funding DeepSeek: reported figures require careful labeling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 717.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 34.9 Tm /F1 10.1 Tf 15 TL (The widely repeated proposition is straightforward: High-Flyer supplied the financial and technical platform) Tj T* (from which DeepSeek emerged. That is supported by the record of High-Flyer's AI trading work, compute) Tj T* (clusters and 2023 decision to form an independent AGI research group. [1]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 633.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 64.9 Tm /F1 10.1 Tf 15 TL (The newer funding claims are less transparent. A June 2026 report said DeepSeek had completed its first) Tj T* (external financing round, raising about $7.4 billion at a valuation above $50 billion, with roughly two-fifths) Tj T* (reportedly coming from Liang Wenfeng. [5] These figures have circulated widely, but the public sources) Tj T* (reviewed for this article do not include a company announcement, financing documents or a cap table that) Tj T* (independently confirms the terms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 564.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (Accordingly, this article treats the $7.4 billion round, Liang's purported contribution and any estimate of his) Tj T* -0.113225 Tw (equity ownership as reported claims rather than established facts. Reuters reported in 2025 that High-Flyer) Tj T* 0 Tw (was privately held, that Liang owned 55% of the fund, and that he held 99% of its voting rights. That) Tj T* (corporate-record detail concerns High-Flyer - not necessarily DeepSeek's current capitalization. [1]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 495.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (The operating logic, however, is clear. A profitable quant manager can provide patient capital, technical) Tj T* (staff and compute assets; an AI lab can, in turn, develop research capabilities relevant to the broader) Tj T* (organization. The arrangement may reduce dependence on outside financing, but it also concentrates) Tj T* (key-person, regulatory, technology and capital-allocation risk.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 426.8661 cm
+q
+BT 1 0 0 1 0 49.9 Tm 15 TL /F2 10.1 Tf .113725 .145098 .172549 rg (Allocator lens:) Tj /F1 10.1 Tf ( The central question is not whether High-Flyer is simply a hedge fund or DeepSeek is) Tj T* (simply an AI company. It is whether the combined platform can translate differentiated research and) Tj T* -0.02959 Tw (compute into durable investment returns and commercially viable AI - while managing the separate risks of) Tj T* 0 Tw (volatile markets, export controls and semiconductor cycles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 357.8661 cm
+q
+.113725 .145098 .172549 rg
+BT 1 0 0 1 0 49.9 Tm /F1 10.1 Tf 15 TL (CXMT underscores that convergence. A final High-Flyer allocation, if disclosed, would provide a clearer) Tj T* (measure of direct portfolio exposure. Until then, the reported preliminary bids are best understood as a) Tj T* -0.008043 Tw (signal of strong interest in a national-champion memory company - not a definitive measure of High-Flyer's) Tj T* 0 Tw (position size or Liang's personal conviction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 344.8661 cm
+Q
+q
+1 0 0 1 59.85827 343.0661 cm
+q
+.8 w
+1 J
+.717647 .768627 .796078 RG
+n 0 0 m 475.5591 0 l S
+Q
+Q
+q
+1 0 0 1 59.85827 317.0661 cm
+q
+.364706 .407843 .45098 rg
+BT 1 0 0 1 0 11.5 Tm /F1 7.5 Tf 9.5 TL (Method note: This article distinguishes facts reported by Reuters, the South China Morning Post and other cited outlets from claims that lack) Tj T* (public primary documentation. Currency conversions are source-reported. No investment recommendation is intended.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 311.0661 cm
+Q
+q
+1 0 0 1 59.85827 289.0661 cm
+q
+.078431 .156863 .227451 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Sources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 59.85827 272.9661 cm
+q
+BT 1 0 0 1 11.33858 2.7 Tm -11.33858 0 Td 10.1 TL /F1 7.4 Tf .113725 .145098 .172549 rg ([1] Reuters, ) Tj /F3 7.4 Tf (High-Flyer, the AI quant fund behind China's DeepSeek) Tj /F1 7.4 Tf (, 29 Jan. 2025.) Tj T* 11.33858 0 Td ET
+Q
+Q
+q
+1 0 0 1 59.85827 259.8661 cm
+q
+BT 1 0 0 1 11.33858 2.7 Tm -11.33858 0 Td 10.1 TL /F1 7.4 Tf .113725 .145098 .172549 rg ([2] Reuters, ) Tj /F3 7.4 Tf (Chipmaker CXMT vaults to top of China's valuation with 466% surge in Shanghai debut) Tj /F1 7.4 Tf (, 27 Jul. 2026.) Tj T* 11.33858 0 Td ET
+Q
+Q
+q
+1 0 0 1 59.85827 246.7661 cm
+q
+BT 1 0 0 1 11.33858 2.7 Tm -11.33858 0 Td 10.1 TL /F1 7.4 Tf .113725 .145098 .172549 rg ([3] South China Morning Post, ) Tj /F3 7.4 Tf (Chinese memory giant CXMT oversubscribed 212 times in mega Shanghai IPO) Tj /F1 7.4 Tf (, 17 Jul. 2026.) Tj T* 11.33858 0 Td ET
+Q
+Q
+q
+1 0 0 1 59.85827 233.6661 cm
+q
+BT 1 0 0 1 11.33858 2.7 Tm -11.33858 0 Td 10.1 TL /F1 7.4 Tf .113725 .145098 .172549 rg ([4] Bloomberg reporting via Cinco Dias, ) Tj /F3 7.4 Tf (La gestora del creador de DeepSeek logra una rentabilidad del 60% con inversiones en IA) Tj /F1 7.4 Tf (, 12 Jan. 2026.) Tj T* 11.33858 0 Td ET
+Q
+Q
+q
+1 0 0 1 59.85827 220.5661 cm
+q
+BT 1 0 0 1 11.33858 2.7 Tm -11.33858 0 Td 10.1 TL /F1 7.4 Tf .113725 .145098 .172549 rg ([5] TechRadar, citing South China Morning Post, ) Tj /F3 7.4 Tf (DeepSeek wants to double its workforce) Tj /F1 7.4 Tf (, 26 Jun. 2026.) Tj T* 11.33858 0 Td ET
+Q
+Q
+ 
+
+Q Q Q Q Q Q Q Q Q Q
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.717647 0.768627 0.796078 RG
+0.4 w
+n
+53.85827 807.874 m
+541.4173 807.874 l
+S
+BT
+/F2-0 7.2 Tf
+8.64 TL
+ET
+0.078431 0.156863 0.227451 rg
+BT
+1 0 0 1 53.85827 816.378 Tm
+(MARKETS \046 TECHNOLOGY \174 REPORTING NOTE) Tj
+T*
+ET
+BT
+/F1-0 7.2 Tf
+8.64 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 495.7909 816.378 Tm
+(28 JULY 2026) Tj
+T*
+ET
+0.717647 0.768627 0.796078 RG
+n
+53.85827 34.01575 m
+541.4173 34.01575 l
+S
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+0.364706 0.407843 0.45098 rg
+BT
+1 0 0 1 53.85827 22.67717 Tm
+(High\055Flyer\054 DeepSeek and CXMT) Tj
+T*
+ET
+BT
+1 0 0 1 519.2343 22.67717 Tm
+(Page 3) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000442 00000 n 
+0000005352 00000 n 
+0000005459 00000 n 
+0000005566 00000 n 
+0000005678 00000 n 
+0000005790 00000 n 
+0000005906 00000 n 
+0000006176 00000 n 
+0000010706 00000 n 
+0000010814 00000 n 
+0000010927 00000 n 
+0000011197 00000 n 
+0000017455 00000 n 
+0000017563 00000 n 
+trailer
+<<
+/Size 19
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+17676
+%%EOF
