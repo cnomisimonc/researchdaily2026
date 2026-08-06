@@ -163,7 +163,7 @@ const QUOTES=[
 {t:"The obstacle is the path.",a:"Zen proverb"}
 ];
 function quoteFor(d){let h=0;for(const c of d)h=(h*31+c.charCodeAt(0))>>>0;return QUOTES[h%QUOTES.length];}
-const dates = [...new Set(DATA.filter(e=>e.source==="needtoknow").map(e=>e.date))].sort().reverse();
+const dates = [...new Set(DATA.map(e=>e.date))].sort().reverse();
 let idx = 0;
 let activeSrc = "needtoknow";
 function renderTabs(){
